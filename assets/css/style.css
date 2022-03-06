@@ -48,3 +48,29 @@ html {
   top: 0;
   left: 0;
 }
+#welcome-section {
+  height: 100vh;
+  margin-top: 7rem;
+  background-color: antiquewhite;
+}
+
+.welcome-section {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  align-items: center;
+}
+
+.welcome-section span {
+  font-size: 3rem;
+  color: #333;
+}
+
+h1 {
+  font-size: 7rem;
+  color: #777;
+}
