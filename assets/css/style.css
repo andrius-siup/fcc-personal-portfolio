@@ -87,6 +87,7 @@ h1 {
 
 #projects h2 {
   font-size: 4.4rem;
+  color: #777;
   text-align: center;
   padding: 7.4rem 0;
 }
@@ -96,22 +97,39 @@ h1 {
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem 1rem;
+  gap: 5rem 5rem;
   align-items: center;
   justify-items: center;
 }
 
 .project-tile {
+  max-width: 50rem;
+  height: 35rem;
+  background-color: #eee;
+
   display: flex;
   flex-direction: column;
   gap: 2rem;
   align-items: center;
-  padding: 2.4rem;
+  justify-content: center;
+  padding: 0 2.4rem;
+
+  border: 3px solid #eee;
+  border-radius: 11px;
+  box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.project-img {
+  padding: 0 3rem;
 }
 
 .project-tile img {
-  max-width: 40rem;
-  height: 100%;
+  /* max-width: 40rem; */
+  width: 50rem;
+  /* height: 100%; */
+
+  object-fit: contain;
+  border-radius: 9px;
 }
 
 .project-tile h3 {
@@ -120,7 +138,7 @@ h1 {
 
 .project-tile h3 a {
   text-decoration: none;
-  color: #777;
+  color: #555;
 }
 
 @media screen and(max-width: 1200px) {
