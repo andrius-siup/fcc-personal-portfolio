@@ -48,6 +48,8 @@ html {
   top: 0;
   left: 0;
 }
+
+/*----------------------------------- Welcome Section */
 #welcome-section {
   height: 100vh;
   margin-top: 7rem;
@@ -75,6 +77,8 @@ h1 {
   font-size: 7.4rem;
   color: #777;
 }
+
+/*----------------------------------- Projects Section */
 
 #projects {
   background-color: #eee;
@@ -140,6 +144,65 @@ h1 {
 .project-tile h3 a {
   text-decoration: none;
   color: #555;
+}
+
+/*----------------------------------- Contact Section */
+
+#contact-section {
+  height: 100vh;
+  background-color: #faead6;
+  /* padding-top: 7rem; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact h2 {
+  font-size: 7.4rem;
+  color: #777;
+  letter-spacing: 3px;
+}
+
+.contact p {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+
+  list-style: none;
+}
+
+.contact ul li a {
+  font-size: 2rem;
+  color: #333;
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+
+  letter-spacing: 1px;
+}
+
+.fab {
+  color: #777;
+  font-size: 2rem;
 }
 
 @media screen and(max-width: 1200px) {
