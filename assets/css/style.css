@@ -230,7 +230,7 @@ address {
 
 /*----------------------------------- Contact Section */
 #footer-section {
-  height: 30vh;
+  height: 40vh;
   background-color: #eee;
   padding: 5rem;
 
@@ -267,11 +267,19 @@ address {
   font-size: 2.4rem;
 }
 
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
 .footer-contact {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  /* align-items: center; */
   gap: 1rem;
 }
 
@@ -311,6 +319,10 @@ address {
 
 .footer-nav ul {
   list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
 }
 
 .footer-nav .nav-link {
@@ -318,6 +330,7 @@ address {
   font-size: 1.8rem;
   font-weight: 700;
   color: #999;
+  padding: 0;
 }
 
 @media screen and(max-width: 1200px) {
