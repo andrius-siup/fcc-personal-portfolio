@@ -224,5 +224,9 @@ h1 {
   padding: 1.2rem; */
 }
 
+address {
+  font-style: normal;
+}
+
 @media screen and(max-width: 1200px) {
 }
