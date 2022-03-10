@@ -98,17 +98,21 @@ h1 {
 }
 
 .project-tiles {
-  /* height: 100vh; */
+  height: 100vh;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, auto);
   gap: 8rem 5rem;
   align-items: center;
   justify-items: center;
+
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .project-tile {
   max-width: 50rem;
+  /* width: 90%; */
   height: 35rem;
   background-color: #eee;
 
@@ -130,7 +134,8 @@ h1 {
 
 .project-tile img {
   /* max-width: 40rem; */
-  width: 50rem;
+  /* width: 50rem; */
+  width: 100%;
   /* height: 100%; */
 
   object-fit: contain;
@@ -363,45 +368,6 @@ address {
   color: #999;
 }
 
-.footer-form {
-  /* grid-column: 3 / 5; */
-
-  /* justify-self: center;
-  align-self: center; */
-}
-
-/* .footer-form {
-  display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
-  justify-content: space-around;
-  align-items: center;
-} */
-
-/* .footer-form form {
-  display: flex;
-  flex-direction: column;
-  row-gap: 0.8rem;
-} */
-
-/* .footer-form form input {
-  font-size: 1.8rem;
-  border-radius: 9px;
-  border: 2px solid #999;
-  padding: 0.3rem;
-} */
-
-/* .footer-form form textarea {
-  border-radius: 9px;
-  border: 2px solid #999;
-} */
-
-/* .footer-form form button {
-  font-size: 1.8rem;
-  padding: 0.3rem;
-  border: 2px solid #999;
-  border-radius: 9px;
-} */
-
-@media screen and(max-width: 1200px) {
+/* 1792px */
+@media only screen and (max-width: 1792px) {
 }
