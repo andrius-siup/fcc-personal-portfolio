@@ -81,8 +81,9 @@ h1 {
 /*----------------------------------- Projects Section */
 
 #projects {
+  /* height: 100vh; */
   background-color: #eee;
-  padding: 9.6rem 3.6rem;
+  padding: 9.6rem 3.2rem;
 
   display: flex;
   flex-direction: column;
@@ -98,10 +99,8 @@ h1 {
 }
 
 .project-tiles {
-  height: 100vh;
-
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 1fr);
   gap: 8rem 5rem;
   align-items: center;
   justify-items: center;
@@ -118,7 +117,7 @@ h1 {
 
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3.2rem;
   align-items: center;
   justify-content: center;
   padding: 0 2.4rem;
@@ -138,7 +137,8 @@ h1 {
   width: 100%;
   height: 62%;
 
-  object-fit: contain;
+  /* object-fit: contain; */
+  object-fit: cover;
   border-radius: 9px;
 }
 
@@ -369,5 +369,137 @@ address {
 }
 
 /* 1792px */
-@media only screen and (max-width: 1792px) {
+@media only screen and (max-width: 112em) {
+  .project-tiles {
+    gap: 6rem 4rem;
+  }
+
+  #footer-section {
+    height: 30vh;
+  }
+}
+
+/* 1568px */
+@media only screen and (max-width: 98em) {
+  .project-tiles {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
+
+  .project-tile {
+    height: 32rem;
+    gap: 2.4rem;
+  }
+}
+
+/* 1376 */
+@media only screen and (max-width: 86em) {
+  #projects {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+  .project-tiles {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+
+  .project-tile {
+    height: 28rem;
+  }
+
+  #footer-section {
+    height: 25vh;
+  }
+}
+
+/* 1184px = 74em */
+@media only screen and (max-width: 74em) {
+  .project-tile {
+    height: 24rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+}
+
+/* 1040px = 65em */
+@media only screen and (max-width: 65em) {
+  h1 {
+    font-size: 6.2rem;
+  }
+
+  .welcome-section span {
+    font-size: 3.2rem;
+  }
+
+  #projects {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+
+  #projects h2 {
+    font-size: 3.6rem;
+  }
+  .project-tiles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project-tile {
+    height: 32rem;
+  }
+
+  .project-tile h3 {
+    font-size: 2.4rem;
+  }
+
+  .contact h2 {
+    font-size: 6.2rem;
+    color: #777;
+    letter-spacing: 2px;
+  }
+
+  .contact p {
+    font-size: 1.6rem;
+  }
+
+  .fab,
+  .fas {
+    font-size: 3.2rem;
+  }
+
+  #footer-section {
+    grid-template-columns: 1fr;
+    height: 30vh;
+  }
+}
+
+/* 752px = 47em */
+@media only screen and (max-width: 47em) {
+  h1 {
+    font-size: 5.2rem;
+  }
+  .project-tiles {
+    grid-template-columns: 1fr;
+  }
+
+  .project-tile {
+    height: 39rem;
+  }
+
+  .contact h2 {
+    font-size: 5.2rem;
+    letter-spacing: 1px;
+  }
+
+  .contact p {
+    font-size: 1.2rem;
+  }
+
+  .fab,
+  .fas {
+    font-size: 2.4rem;
+  }
+}
+
+/* 640px = 40em */
+@media only screen and (max-width: 47em) {
 }
