@@ -461,6 +461,10 @@ address {
     font-size: 1.6rem;
   }
 
+  .contact ul {
+    column-gap: 3rem;
+  }
+
   .fab,
   .fas {
     font-size: 3.2rem;
@@ -468,7 +472,7 @@ address {
 
   #footer-section {
     grid-template-columns: 1fr;
-    height: 30vh;
+    height: 65vh;
   }
 }
 
@@ -494,6 +498,10 @@ address {
     font-size: 1.2rem;
   }
 
+  .contact ul {
+    column-gap: 2rem;
+  }
+
   .fab,
   .fas {
     font-size: 2.4rem;
@@ -502,4 +510,157 @@ address {
 
 /* 640px = 40em */
 @media only screen and (max-width: 47em) {
+  #navbar {
+    align-items: center;
+  }
+
+  #navbar ul {
+    padding-right: 0;
+  }
+
+  .nav-link {
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 4.4rem;
+  }
+
+  .welcome-section span {
+    font-size: 2.4rem;
+  }
+
+  #projects h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .contact {
+    gap: 4rem;
+  }
+  .contact h2 {
+    text-align: center;
+    font-size: 4.4rem;
+  }
+
+  .contact p {
+    text-align: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .contact ul {
+    column-gap: 1.6rem;
+  }
+
+  #footer-section {
+    /* height: 40vh; */
+    height: 63vh;
+  }
+
+  .f-welcome-section h3 {
+    font-size: 2.4rem;
+  }
+
+  .footer h4 {
+    font-size: 2rem;
+  }
+
+  .f-social-links li a,
+  .footer-nav .nav-link,
+  .footer-projects ul a {
+    font-size: 1.4rem;
+  }
+  .footer-links {
+    gap: 6rem;
+  }
+}
+
+/* 432px = 27em*/
+@media only screen and (max-width: 27em) {
+  #navbar ul {
+    gap: 1.6rem;
+  }
+
+  .nav-link {
+    font-size: 1.6rem;
+  }
+  h1 {
+    text-align: center;
+    font-size: 3.6rem;
+  }
+
+  .welcome-section span {
+    font-size: 2rem;
+  }
+  .contact {
+    gap: 3rem;
+  }
+
+  .contact h2 {
+    font-size: 3.6rem;
+  }
+  .contact p {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .social-links li a span {
+    display: none;
+  }
+  #footer-section {
+    padding: 0;
+    height: 50vh;
+  }
+
+  .footer-links {
+    gap: 4rem;
+  }
+}
+
+/*320px = 20em*/
+@media only screen and (max-width: 20em) {
+  #projects {
+    padding-top: 1.6rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+
+  #projects h2 {
+    font-size: 2.4rem;
+    padding-bottom: 3.6rem;
+  }
+  .contact h2 {
+    font-size: 3.2rem;
+  }
+
+  .project-tile {
+    height: 35rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+
+  .project-tile h3 {
+    font-size: 2rem;
+  }
+
+  .contact {
+    padding: 4rem;
+  }
+
+  .contact p {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  .fab,
+  .fas {
+    font-size: 2rem;
+  }
+
+  #footer-section {
+    height: 65vh;
+  }
+
+  .footer-links {
+    gap: 2.4rem;
+  }
 }
