@@ -140,6 +140,12 @@ h1 {
   border: 3px solid #eee;
   border-radius: 11px;
   box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.3);
+
+  transition: all 0.4s;
+}
+
+.project-tile:hover {
+  transform: translateY(-1.2rem);
 }
 
 .project-img {
@@ -154,6 +160,8 @@ h1 {
 
   /* object-fit: contain; */
   object-fit: cover;
+  object-position: center;
+  /* object-position: left; */
   border-radius: 9px;
 }
 
