@@ -32,7 +32,8 @@ html {
   list-style: none;
 }
 
-.nav-link {
+.nav-link:link,
+.nav-link:visited {
   font-size: 2rem;
   font-weight: 700;
   color: #777;
@@ -41,6 +42,19 @@ html {
 
   border: 2px solid #fff;
   border-radius: 9px;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  background-color: #777;
+  color: #fff;
+}
+
+body *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.6rem rgba(175, 164, 150, 0.5);
+  /* color: rgb(175, 164, 150); */
 }
 
 .sticky {
