@@ -145,24 +145,31 @@ h1 {
 }
 
 .project-tile:hover {
-  transform: translateY(-1.2rem);
+  /* transform: translateY(-1.2rem); */
 }
 
 .project-img {
-  padding: 0 3rem;
+  max-width: 40rem;
+  overflow: hidden;
 }
 
 .project-tile img {
   /* max-width: 40rem; */
   /* width: 50rem; */
   width: 100%;
-  height: 62%;
+  /* height: 62%; */
 
   /* object-fit: contain; */
   object-fit: cover;
   object-position: center;
   /* object-position: left; */
   border-radius: 9px;
+
+  transition: all 0.4s;
+}
+
+.project-tile img:hover {
+  transform: scale(1.1);
 }
 
 .project-tile h3 {
