@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&family=Lato:wght@100;300;400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inspiration&display=swap");
+
 *,
 ::before,
 ::after {
@@ -8,6 +12,8 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+
+  font-family: "Lato", sans-serif;
 }
 
 #navbar {
@@ -38,7 +44,7 @@ html {
   font-weight: 700;
   color: #777;
   text-decoration: none;
-  padding: 1rem;
+  padding: 1rem 1.2rem;
 
   border: 2px solid #fff;
   border-radius: 9px;
@@ -81,16 +87,18 @@ body *:focus {
   flex-direction: column;
   row-gap: 0.5rem;
   align-items: center;
-}
 
-.welcome-section span {
-  font-size: 3.6rem;
-  color: #333;
+  font-family: "Indie Flower", cursive;
 }
 
 h1 {
-  font-size: 7.4rem;
+  font-size: 9.8rem;
   color: #777;
+}
+
+.welcome-section span {
+  font-size: 4.4rem;
+  color: #999;
 }
 
 /*----------------------------------- Projects Section */
