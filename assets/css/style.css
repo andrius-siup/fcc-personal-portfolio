@@ -204,7 +204,7 @@ h1 {
 
 #contact-section {
   height: 100vh;
-  background-color: #faead6;
+  background-color: #048bc2;
   /* padding-top: 7rem; */
 
   display: flex;
@@ -227,14 +227,14 @@ h1 {
 }
 
 .contact h2 {
-  font-size: 7.4rem;
-  color: #777;
+  font-size: 8.6rem;
+  color: #fff;
   letter-spacing: 3px;
 }
 
 .contact p {
-  font-size: 1.8rem;
-  color: #333;
+  font-size: 2rem;
+  color: #fff;
 }
 
 .contact ul {
@@ -252,7 +252,7 @@ h1 {
 
 .contact ul li a {
   font-size: 1.8rem;
-  color: #333;
+  /* color: #fff; */
   text-decoration: none;
 
   display: flex;
@@ -282,7 +282,7 @@ h1 {
 .fab,
 .fas {
   font-size: 5rem;
-  color: #777;
+  color: #999;
   /* background-color: #eee;
   box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.1);
   border-radius: 50%;
