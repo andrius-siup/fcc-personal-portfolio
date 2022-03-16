@@ -49,6 +49,7 @@ html {
 .nav-link:active {
   background-color: #777;
   color: #fff;
+  border: 2px solid transparent;
 }
 
 body *:focus {
@@ -165,6 +166,17 @@ h1 {
   color: #555;
 }
 
+.project-tile h3 a:link,
+.project-tile h3 a:visited {
+  color: #555;
+  transition: all 0.3s;
+}
+
+.project-tile h3 a:hover,
+.project-tile h3 a:active {
+  color: #999;
+}
+
 /*----------------------------------- Contact Section */
 
 #contact-section {
@@ -229,6 +241,17 @@ h1 {
   letter-spacing: 1px;
 }
 
+.contact ul li a:link,
+.contact ul li a:visited {
+  color: #333;
+}
+
+.contact ul li a:hover,
+.contact ul li a:active {
+  color: #999;
+  /* font-weight: 700; */
+}
+
 .social-links li a span {
   font-size: 1.2rem;
 }
@@ -241,6 +264,28 @@ h1 {
   box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   padding: 1.2rem; */
+}
+
+.fas:link,
+.fas:visited {
+  color: #777;
+  transition: all 0.5s;
+}
+
+.fas:hover,
+.fas:active {
+  color: #333;
+}
+
+.fab:link,
+.fab:visited {
+  color: #777;
+  transition: all 0.5s;
+}
+
+.fab:hover,
+.fab:active {
+  color: #333;
 }
 
 address {
@@ -321,9 +366,20 @@ address {
 
 .f-social-links li a {
   text-decoration: none;
-  color: #999;
+  /* color: #999; */
   font-size: 1.8rem;
   font-weight: 700;
+}
+
+.f-social-links li a:link,
+.f-social-links li a:visited {
+  color: #999;
+  transition: all 0.3s;
+}
+
+.f-social-links li a:hover,
+.f-social-links li a:active {
+  color: #333;
 }
 
 .f-social-links .fab,
@@ -359,6 +415,18 @@ address {
   padding: 0;
 }
 
+.footer-nav .nav-link:link,
+.footer-nav .nav-link:visited {
+  color: #999;
+  background-color: #eee;
+  transition: all 0.3s;
+}
+
+.footer-nav .nav-link:hover,
+.footer-nav .nav-link:active {
+  color: #333;
+}
+
 .footer-projects {
   display: flex;
   flex-direction: column;
@@ -380,6 +448,17 @@ address {
   font-size: 1.8rem;
   font-weight: 700;
   color: #999;
+}
+
+.footer-projects ul a:link,
+.footer-projects ul a:visited {
+  color: #999;
+  transition: all 0.3s;
+}
+
+.footer-projects ul a:hover,
+.footer-projects ul a:active {
+  color: #333;
 }
 
 /* 1792px */
