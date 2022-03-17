@@ -20,6 +20,7 @@ html {
   width: 100vw;
   height: 7rem;
   background-color: #eee;
+  box-shadow: 0 0.6rem 1.2rem 0rem rgba(0, 0, 0, 0.1);
 
   display: flex;
   flex-direction: column;
@@ -69,6 +70,7 @@ body *:focus {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 9999;
 }
 
 /*----------------------------------- Welcome Section */
