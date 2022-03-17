@@ -594,7 +594,6 @@ address {
 
   .contact h2 {
     font-size: 6.2rem;
-    color: #777;
     letter-spacing: 2px;
   }
 
@@ -615,6 +614,9 @@ address {
     grid-template-columns: 1fr;
     height: 65vh;
   }
+  .f-welcome-section h3 {
+    font-size: 3.6rem;
+  }
 }
 
 /* 752px = 47em */
@@ -622,12 +624,26 @@ address {
   h1 {
     font-size: 5.2rem;
   }
+
+  .welcome-section span {
+    font-size: 3.6rem;
+  }
+
   .project-tiles {
     grid-template-columns: 1fr;
   }
 
   .project-tile {
-    height: 39rem;
+    height: 40rem;
+  }
+
+  .project-img {
+    max-width: 42rem;
+    margin: 0 2rem;
+  }
+
+  .project-tile h3 {
+    font-size: 3rem;
   }
 
   .contact h2 {
@@ -636,7 +652,9 @@ address {
   }
 
   .contact p {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    padding: 0 10rem;
+    text-align: center;
   }
 
   .contact ul {
@@ -650,7 +668,7 @@ address {
 }
 
 /* 640px = 40em */
-@media only screen and (max-width: 47em) {
+@media only screen and (max-width: 40em) {
   #navbar {
     align-items: center;
   }
@@ -667,7 +685,7 @@ address {
   }
 
   .welcome-section span {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 
   #projects h2 {
@@ -698,9 +716,9 @@ address {
     height: 63vh;
   }
 
-  .f-welcome-section h3 {
-    font-size: 2.4rem;
-  }
+  /* .f-welcome-section h3 {
+    font-size: 3.6rem;
+  } */
 
   .footer h4 {
     font-size: 2rem;
@@ -738,7 +756,7 @@ address {
   }
 
   .contact h2 {
-    font-size: 3.6rem;
+    font-size: 4.4rem;
   }
   .contact p {
     padding-left: 3rem;
@@ -749,32 +767,69 @@ address {
   }
   #footer-section {
     padding: 0;
-    height: 50vh;
+    height: 70vh;
+  }
+
+  .f-welcome-section h3 {
+    font-size: 3rem;
+  }
+
+  .footer h4 {
+    font-size: 2.4rem;
+  }
+
+  .f-social-links li a,
+  .footer-nav .nav-link,
+  .footer-projects ul a {
+    font-size: 1.6rem;
   }
 
   .footer-links {
     gap: 4rem;
   }
+
+  .f-social-links,
+  .footer-nav ul,
+  .footer-projects ul {
+    gap: 1.2rem;
+  }
 }
 
 /*320px = 20em*/
 @media only screen and (max-width: 20em) {
+  #navbar ul {
+    justify-content: space-between;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
   #projects {
     padding-top: 1.6rem;
     padding-left: 0.8rem;
     padding-right: 0.8rem;
   }
 
+  .project-tiles {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  .project-img {
+    margin: 0;
+  }
+
   #projects h2 {
     font-size: 2.4rem;
     padding-bottom: 3.6rem;
   }
-  .contact h2 {
+  /* .contact h2 {
     font-size: 3.2rem;
-  }
+  } */
 
   .project-tile {
-    height: 35rem;
+    height: 32rem;
     padding-left: 0.8rem;
     padding-right: 0.8rem;
   }
@@ -797,11 +852,11 @@ address {
     font-size: 2rem;
   }
 
-  #footer-section {
+  /* #footer-section {
     height: 65vh;
-  }
+  } */
 
   .footer-links {
-    gap: 2.4rem;
+    gap: 1.6rem;
   }
 }
