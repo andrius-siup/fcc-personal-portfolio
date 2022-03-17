@@ -801,6 +801,11 @@ address {
     justify-content: space-between;
   }
 
+  #navbar .nav-link {
+    font-size: 1.6rem;
+    padding: 0.8rem 1rem;
+  }
+
   h1 {
     font-size: 3rem;
   }
@@ -847,10 +852,28 @@ address {
     padding-right: 1.2rem;
   }
 
-  .fab,
-  .fas {
+  #footer-section {
+    height: 75vh;
+  }
+
+  .f-welcome-section h3 {
+    font-size: 2.4rem;
+  }
+
+  .footer h4 {
     font-size: 2rem;
   }
+
+  .f-social-links li a,
+  .footer-nav .nav-link,
+  .footer-projects ul a {
+    font-size: 1.2rem;
+  }
+
+  /* .fab,
+  .fas {
+    font-size: 2rem;
+  } */
 
   /* #footer-section {
     height: 65vh;
