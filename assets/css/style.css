@@ -348,7 +348,7 @@ address {
 }
 
 .f-welcome-section h3 {
-  font-size: 3rem;
+  font-size: 3.6rem;
   color: #333;
 }
 
@@ -496,7 +496,7 @@ address {
   }
 
   #footer-section {
-    height: 30vh;
+    height: 35vh;
   }
 }
 
@@ -508,7 +508,7 @@ address {
   }
 
   .project-tile {
-    height: 32rem;
+    height: 35rem;
     gap: 2.4rem;
   }
 }
@@ -525,20 +525,40 @@ address {
   }
 
   .project-tile {
-    height: 28rem;
+    height: 32rem;
   }
 
-  #footer-section {
+  /* #footer-section {
     height: 25vh;
-  }
+  } */
 }
 
 /* 1184px = 74em */
 @media only screen and (max-width: 74em) {
+  h1 {
+    font-size: 8.2rem;
+  }
+
+  .welcome-section span {
+    font-size: 5.2rem;
+  }
+
   .project-tile {
-    height: 24rem;
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
+    height: 32rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  .contact h2 {
+    font-size: 7.4rem;
+  }
+
+  .contact p {
+    font-size: 1.6rem;
+  }
+
+  .f-welcome-section h3 {
+    font-size: 3rem;
   }
 }
 
